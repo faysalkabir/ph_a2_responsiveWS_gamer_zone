@@ -107,10 +107,23 @@ body {
 
 /* goat-gamer section starts */
 
+/* .goat_area_image{
+    grid-area: gai;
+} */
+
+/* .gamer_area_image{
+    grid-area: gmai;
+} */
 .goat_gamer {
 
     border: 1px solid red;
-    display: grid;
+    /* display: flex; */
+
+}
+
+.goat_section{
+    display: flex;
+
 }
 
 .goat_text {
@@ -161,6 +174,9 @@ body {
     margin-right: 10px;
 }
 
+.gamer_section{
+    display:flex;
+}
 .gamer_text h2 {
     /* text-align: right; */
     font-size: 48px;
